@@ -248,3 +248,32 @@ st.markdown("""
     Built with Streamlit & Machine Learning · For educational purposes
 </div>
 """, unsafe_allow_html=True)
+
+st.divider()
+
+st.header("🎓 Chandigarh University Placement Statistics")
+st.caption("Officially reported figures • Batch 2024–25")
+
+col1, col2 = st.columns(2)
+
+with col1:
+    st.metric("Placement Offers", "10,000+")
+
+with col2:
+    st.metric("Companies Visited", "1,300+")
+
+col3, col4 = st.columns(2)
+
+with col3:
+    st.metric("Highest National Package", "₹59.9 LPA")
+
+with col4:
+    st.metric("Highest International Package", "₹1.7 Crore")
+
+st.caption(
+    "Source: Chandigarh University official placement website"
+)
+
+st.markdown(
+    "[View Official Placement Details](https://www.cuchd.in/placements/)"
+)
